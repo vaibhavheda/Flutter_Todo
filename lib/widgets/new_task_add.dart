@@ -243,7 +243,7 @@ class _NewTaskAddScreenState extends State<NewTaskAddScreen> {
                       );
                     }).toList(),
                     value: categoryValue,
-                    borderRadius: const BorderRadius.all(Radius.circular(10.0)),
+                    borderRadius: const BorderRadius.all(Radius.circular(11.0)),
                     underline: Container(),
                     onChanged: (value) {
                       _handleDropdownChange(value as CategoryTypes);
